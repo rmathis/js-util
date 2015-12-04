@@ -1,3 +1,5 @@
+// Originally taken from Jeff Cross, heavily expanded and reworked
+
 angular
 .module('lib.analytics.google.service', [])
 .provider(

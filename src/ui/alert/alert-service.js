@@ -1,3 +1,5 @@
+// Originally taken from Ben Sparks, expanded and reworked
+
 angular
 .module(
     'lib.ui.alert.alert-service',
