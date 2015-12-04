@@ -1,0 +1,10 @@
+<span class="dropdown" dropdown>
+    <a href="" class="dropdown-toggle" dropdown-toggle>
+        {{ text }}
+    </a>
+    <ul class="dropdown-menu">
+        <li ng-repeat="option in options track by $id(option)">
+            <a href="" ng-click="select(option)">{{ option.label }}</a>
+        </li>
+    </ul>
+</span>

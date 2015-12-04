@@ -1,4 +1,4 @@
-js-util
-=======
+ng-utilities
+============
 
-Utilities (JS)
+Utilities for angularjs apps

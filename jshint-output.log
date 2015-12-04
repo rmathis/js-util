@@ -1,0 +1,16 @@
+1 lint errors found in /Development/Projects/Personal/angular-components/src/form/dropdownSelect.dir.js
+  [10,18](W098) '$log' is defined but never used.1 lint errors found in /Development/Projects/Personal/angular-components/src/form/inputMatch.dir.js
+  [10,19](W098) '$log' is defined but never used.5 lint errors found in /Development/Projects/Personal/angular-components/src/form/markdown.dir.js
+  [20,30](W109) Strings must use singlequote.
+  [14,33](W117) 'Showdown' is not defined.
+  [22,49](W098) 'attrs' is defined but never used.
+  [22,40](W098) 'element' is defined but never used.
+  [23,55](W098) 'o' is defined but never used.5 lint errors found in /Development/Projects/Personal/angular-components/src/http/dateInterceptor.svc.js
+  [22,25](W117) '_' is not defined.
+  [27,37](W117) '_' is not defined.
+  [38,25](W117) '_' is not defined.
+  [43,37](W117) '_' is not defined.
+  [16,31](W098) '$log' is defined but never used.3 lint errors found in /Development/Projects/Personal/angular-components/src/http/idInterceptor.svc.js
+  [22,25](W117) '_' is not defined.
+  [27,37](W117) '_' is not defined.
+  [16,31](W098) '$log' is defined but never used.

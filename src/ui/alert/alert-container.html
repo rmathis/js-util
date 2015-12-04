@@ -1,0 +1,6 @@
+<div class="alert-container">
+    <alert
+        ng-repeat="alert in alertCtrl.alerts track by $id(alert) | orderBy:predicate:reverse"
+        alert-options="alert">
+    </alert>
+</div>

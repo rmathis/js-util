@@ -1,0 +1,17 @@
+<div class="carousel {{ carousel.animation }}" ng-swipe-right="carousel.prev()" ng-swipe-left="carousel.next()">
+    <div class="carousel-inner" ng-transclude></div>
+    <button
+        class="left carousel-control"
+        ng-click="carousel.prev()"
+        ng-show="carousel.slides.length > 1"
+        ng-disabled="carousel.currentIndex <= 0">
+        <i class="material-icons">&#xE314;</i>
+    </button>
+    <button
+        class="right carousel-control"
+        ng-click="carousel.next()"
+        ng-show="carousel.slides.length > 1"
+        ng-disabled="carousel.currentIndex >= carousel.slides.length - 1">
+        <i class="material-icons">&#xE315;</i>
+    </button>
+</div>
